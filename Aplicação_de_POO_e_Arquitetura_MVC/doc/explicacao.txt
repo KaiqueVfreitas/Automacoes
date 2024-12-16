@@ -10,3 +10,4 @@ dentro do tests e src, tem as pastas controllers, view e model cada um tem suas 
     controllers fica responsavel pela transição entre banco e view
 
     No caso da model atual, temos toda modelagem de dados, de um banco que tem inforamções de pessoas para cadastro
+    Na controllers foram criados dois metodos um de listar e outro de salvar

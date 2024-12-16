@@ -1,12 +1,18 @@
-from ..models import Pessoas
+import sys
+from models.Pessoas import Pessoas
 from typing import List
-class PessoaController:
+from pathlib import Path
+file = Path(__file__).resolve()
+parent, root = file.parent, file.parents[1]
+sys.path.append(str(root))
+
+class PessoasController:
     pessoa = []
     
     @classmethod
-    def salvar_pessoa(cls, Pessoas: Pessoas) -> None:
+    def salvar_pessoas(cls, Pessoas: Pessoas) -> None:
         cls.pessoa.append(Pessoas)
 
     @classmethod
-    def listar_pessoa(cls) -> List[Pessoas]:
+    def listar_pessoas(cls) -> List[Pessoas]:
         return cls.pessoa
