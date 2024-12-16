@@ -18,6 +18,12 @@
 
 <h2>📁 Mini-Projetos</h2>
 <ul>
+<li>
+    <b>Aplicação de POO e MVC:</b>
+    <p>
+      Projeto focado em demonstrar conceitos como herança, encapsulamento e polimorfismo, organizados dentro da arquitetura MVC para garantir clareza e escalabilidade do código.
+    </p>
+  </li>
   <li>
     <b>Conexões Automáticas no LinkedIn:</b> 
     <p>
@@ -40,12 +46,6 @@
     <b>Automação de Planejamento de Viagens:</b>
     <p>
       Sistema para cadastrar viagens com informações como destino, datas, e-mails dos participantes e do organizador. O organizador recebe um e-mail com um link para confirmar a viagem.
-    </p>
-  </li>
-  <li>
-    <b>Aplicação de POO e MVC:</b>
-    <p>
-      Projeto focado em demonstrar conceitos como herança, encapsulamento e polimorfismo, organizados dentro da arquitetura MVC para garantir clareza e escalabilidade do código.
     </p>
   </li>
 </ul>
