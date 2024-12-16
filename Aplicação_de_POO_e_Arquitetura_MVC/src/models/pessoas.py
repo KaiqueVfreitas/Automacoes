@@ -4,5 +4,5 @@ class Pessoas:
         self.sobrenome = sobrenome
         self.idade = idade
         self.cpf = cpf
-    def nome_completo(self):
+    def metodo_nome_completo(self):
         return self.nome + self.sobrenome 

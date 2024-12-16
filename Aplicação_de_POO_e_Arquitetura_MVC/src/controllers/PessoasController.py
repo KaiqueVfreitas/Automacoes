@@ -8,11 +8,10 @@ sys.path.append(str(root))
 
 class PessoasController:
     pessoa = []
-    
     @classmethod
-    def salvar_pessoas(cls, Pessoas: Pessoas) -> None:
+    def metodo_salvar_pessoas(cls, Pessoas: Pessoas) -> None:
         cls.pessoa.append(Pessoas)
 
     @classmethod
-    def listar_pessoas(cls) -> List[Pessoas]:
+    def metodo_listar_pessoas(cls) -> List[Pessoas]:
         return cls.pessoa

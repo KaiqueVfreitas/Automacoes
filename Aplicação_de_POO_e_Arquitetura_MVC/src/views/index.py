@@ -17,9 +17,9 @@ while True:
         idade = int(input("Digite a idade: "))
         cpf = input("Digite o cpf: ")
         p1 = Pessoas(nome=nome, sobrenome=sobrenome, idade=idade, cpf=cpf)
-        PessoasController.salvar_pessoa(p1)
+        PessoasController.metodo_salvar_pessoas(p1)
     elif decisao == 2:
-        for i in PessoasController.listar_pessoas():
+        for i in PessoasController.metodo_listar_pessoas():
             print(f"Nome: {i.nome}")
     else:
         print("Opção inválida")
