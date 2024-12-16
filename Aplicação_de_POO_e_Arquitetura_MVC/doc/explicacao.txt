@@ -1,0 +1,12 @@
+doc é a pasta que fica toda a documentação dos projetos como execmplo: diagramas de casos e uso, modelos conceituais de banco de dados, manual de instrução do sistema, como deve usar o sistema, etc...
+
+src é a pasta de fato com todo o projeto usado para guardar o codigo fonte usado na pratica
+
+teste é a pasta usada para desenvolvimento orientado a testes, uma copia do projeto para testar alterações e melhorias
+
+dentro do tests e src, tem as pastas controllers, view e model cada um tem suas funções
+    model fica responsavel pelo manuseio do banco
+    view fica responsavel por todas as intereções do usuario
+    controllers fica responsavel pela transição entre banco e view
+
+    No caso da model atual, temos toda modelagem de dados, de um banco que tem inforamções de pessoas para cadastro
