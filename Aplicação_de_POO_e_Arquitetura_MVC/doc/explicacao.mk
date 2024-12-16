@@ -11,3 +11,6 @@ dentro do tests e src, tem as pastas controllers, view e model cada um tem suas 
 
     No caso da model atual, temos toda modelagem de dados, de um banco que tem inforamções de pessoas para cadastro
     Na controllers foram criados dois metodos um de listar e outro de salvar
+    Na view tem um loop para rodar os metodos das controllers e model
+
+Na pasta test, houve tambem uma demonstração de uso com o metodo test_concatenacao_nome_sobrenome, uso nele o assert que retorna sempre verdadeiro para ter certeza que a concatenação funcionol. Mas para todo o projeto funcionar tive que baixar o pytest
