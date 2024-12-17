@@ -4,6 +4,8 @@ from controllers.PessoasController import PessoasController
 from models.Pessoas import Pessoas
 from views.Index import Index
 
+
+
 #Adicionando a pasta mae de todo o projeto para facilitar importações
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)

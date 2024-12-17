@@ -120,7 +120,7 @@ pip install -r requirements.txt
   </li>
   <li>Execute a view principal:
     <pre>
-python src/views/index.py
+python src/App.py
     </pre>
   </li>
 </ol>

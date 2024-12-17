@@ -5,7 +5,8 @@ file = Path(__file__).resolve()
 parent, root = file.parent, file.parents[1]
 sys.path.append(str(root))
 
-from controllers.PessoasController import PessoasController
+from controllers import PessoasController
+
 
 class Index:
     def __init__(self):

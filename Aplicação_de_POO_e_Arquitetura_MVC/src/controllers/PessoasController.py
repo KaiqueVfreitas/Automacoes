@@ -1,5 +1,5 @@
 from typing import List
-from models.Pessoas import Pessoas
+from models import Pessoas
 
 class PessoasController:
     _pessoas = []  

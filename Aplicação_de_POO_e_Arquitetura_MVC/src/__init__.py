@@ -8,8 +8,6 @@ else:
     
 #verifica se as bibliotecas estao instaladas
 try:
-    import colorama
-    import pytest
     print("Todas as bibliotecas necessárias estão instaladas.")
 except ImportError as e:
     print(f"Biblioteca ausente: {e.name}. Instale com 'pip install -r requirements.txt'.")
