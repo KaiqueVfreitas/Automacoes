@@ -1,9 +1,3 @@
-# Meu Projeto
-
-Confira este vídeo no YouTube:
-
-[![Assista ao vídeo](https://img.youtube.com/vi/FzNInSWVKOo/0.jpg)](https://www.youtube.com/watch?v=FzNInSWVKOo)
-
 <h1>🤖 Automações 📂</h1>
 <p>
   Este repositório reúne mini-projetos desenvolvidos para demonstrar habilidades em automação, manipulação de dados, arquitetura de software (MVC) e programação orientada a objetos (POO).  
