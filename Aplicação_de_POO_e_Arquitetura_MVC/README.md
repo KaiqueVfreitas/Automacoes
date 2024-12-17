@@ -1,6 +1,8 @@
 <h1>📚 Aplicação de POO e Arquitetura MVC</h1>
 <p>
-  Este projeto foi desenvolvido com o objetivo de demonstrar a aplicação de Programação Orientada a Objetos (POO) e a organização de código utilizando a Arquitetura MVC (Model-View-Controller).  
+  Este projeto foi desenvolvido com o objetivo de demonstrar a aplicação de Programação Orientada a Objetos (POO) e a organização de código utilizando a Arquitetura MVC (Model-View-Controller). 
+</p>
+<p>
   <b>Observação:</b> Este projeto tem fins exclusivamente didáticos e todos os comentários e decisões implementadas foram feitos para facilitar o aprendizado e a demonstração técnica.
 </p>
 
@@ -133,6 +135,5 @@ python src/views/index.py
 
 <h2>📬 Contato</h2>
 <p>
-  Caso tenha dúvidas ou sugestões, entre em contato pelo e-mail:  
-  <a href="mailto:seuemail@example.com">seuemail@example.com</a>
+  Se tiver dúvidas, sugestões ou quiser conhecer mais sobre meu trabalho <a href="https://kaiquevfreitas.github.io/Site_Portifolio/">CLIQUE AQUI</a>
 </p>

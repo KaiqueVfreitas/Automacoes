@@ -11,8 +11,6 @@ O projeto está organizado em três diretórios principais, cada um com uma fun�
 ### 1. **`doc/`**
 - **Descrição:** Diretório destinado a toda a documentação do projeto.
 - **Conteúdo:** 
-  - Diagramas de casos de uso.
-  - Modelos conceituais de banco de dados.
   - Manuais de instrução e guias de uso do sistema.
   - Explicações sobre o funcionamento do código.
 - **Objetivo:** Centralizar as informações que apoiam o entendimento e a manutenção do projeto.
