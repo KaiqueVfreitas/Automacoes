@@ -1,5 +1,5 @@
 class Pessoas:
-    def __init__(self, nome, sobrenome, idade, cpf):
+    def __init__(self, nome: str, sobrenome: str, idade: int, cpf: str):
         self.nome = nome
         self.sobrenome = sobrenome
         self.idade = idade
