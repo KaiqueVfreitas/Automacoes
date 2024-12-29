@@ -17,8 +17,11 @@ src/
 	App.py
 
 bibliotecas usadas:
-Selenium
-TikerCustom
+	Selenium
+	TikerCustom
+tecnologia:
+	python
+	sqlite
 
 
 readme para um projeto de   Automação desenvolvida com Selenium para acessar o navegador, realizar login no LinkedIn, buscar palavras-chave específicas, aplicar filtros para São Paulo e enviar solicitações de conexão às pessoas encontradas. Ou fazer a remoção de competências do linkedin.
