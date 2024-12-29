@@ -25,9 +25,9 @@
     </p>
   </li>
   <li>
-    <b>Conexões Automáticas no LinkedIn:</b> 
+    <b>Conexões e Remoção de Competências no LinkedIn:</b> 
     <p>
-      Automação desenvolvida com Selenium para acessar o navegador, realizar login no LinkedIn, buscar palavras-chave específicas, aplicar filtros para São Paulo e enviar solicitações de conexão às pessoas encontradas.
+      Automação desenvolvida com Selenium para acessar o navegador, realizar login no LinkedIn, buscar palavras-chave específicas, aplicar filtros para São Paulo e enviar solicitações de conexão às pessoas encontradas. Ou fazer a remoção de competências do linkedin.
     </p>
   </li>
   <li>
