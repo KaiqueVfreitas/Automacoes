@@ -15,3 +15,12 @@ src/
 		Index.py
 	__init__.py
 	App.py
+
+bibliotecas usadas:
+Selenium
+TikerCustom
+
+
+readme para um projeto de   Automação desenvolvida com Selenium para acessar o navegador, realizar login no LinkedIn, buscar palavras-chave específicas, aplicar filtros para São Paulo e enviar solicitações de conexão às pessoas encontradas. Ou fazer a remoção de competências do linkedin.
+O projeto nasceu através de um problema que tive, o linkedin adicionou um monte de competencias devido a minha experiencia profissional e formações. Além disso, quero me conectar mais com as pessoas da area de TI.
+

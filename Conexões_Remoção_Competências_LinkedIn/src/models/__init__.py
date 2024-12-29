@@ -1,1 +1,1 @@
-from .Pessoas import Pessoas
+from .Linkedin import Linkedin

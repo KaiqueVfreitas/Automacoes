@@ -1,1 +1,1 @@
-from .PessoasController import PessoasController
+from .LinkedinController import LinkedinController
