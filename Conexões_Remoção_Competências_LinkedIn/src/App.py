@@ -1,8 +1,9 @@
 import sys 
 import os
-from controllers.LinkedinController import LinkedinController
-from models.Linkedin import Linkedin
-from views.Index import Index
+from controllers import LinkedinController
+from models import Linkedin
+from views import Index
+from views import Menu
 
 
 
