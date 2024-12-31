@@ -10,17 +10,16 @@ class Index:
         senha = self.txt_senha.get()
         LinkedinController.metodo_acessar_linkedin(email, senha)
         
-    def chamar_tela_menu(self):
-        self.janela.destroy()
-        tela_menu = ctk.CTk()
-        menu = Menu(tela_menu)
-        menu.pack(fill="both", expand=True)
-        menu.mainloop()
-        return
-        
     def juntar_metodos(self):
         self.chamar_tela_menu()
         self.receber_email_e_senha()
+    def chamar_tela_menu(self):
+
+        self.janela.destroy()
+        Menu()
+        
+        
+    
     #Métodos visuais 
     def config_tela(self):
         ctk.set_appearance_mode("dark")
@@ -106,5 +105,6 @@ class Index:
         self.btn_entrar()
         self.separador()
         self.btn_sair()
+
         self.janela.mainloop()
    
