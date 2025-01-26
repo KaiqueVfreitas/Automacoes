@@ -35,7 +35,7 @@ class ViagemRepositorios:
         
         self.__conexao.commit()
         
-    def encontrar_viagem_por_id(self, id_viagem: str):
+    def encontrar_viagem_por_id(self, id_viagem: str) -> Tuple:
         cursor = self.__conexao.cursor()
         
         cursor.execute(
