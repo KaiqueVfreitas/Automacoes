@@ -18,6 +18,7 @@ CREATE TABLE IF NOT EXISTS `TB_ENVIO_CONVITE` (
 CREATE TABLE IF NOT EXISTS `TB_LINKS` (
     id_link TEXT PRIMARY KEY,
     id_viagem TEXT,
+    titulo_email_viagem TEXT,
     link TEXT NOT NULL,
     FOREIGN KEY (id_viagem) REFERENCES TB_VIAGEM(id_viagem)
 );

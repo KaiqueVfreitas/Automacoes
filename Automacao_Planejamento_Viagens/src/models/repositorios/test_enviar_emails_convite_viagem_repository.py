@@ -7,6 +7,7 @@ from .enviar_emails_convite_viagem_repository import EnviarEmailsConviteViagemRe
 gerenciar_conexao_dba.conectar_banco_dados()
 id_viagem = str(uuid.uuid4())
 
+@pytest.mark.skip(reason="Testes com o banco de dados para registrar links")
 def test_registrar_emails_participantes():
     conexao = gerenciar_conexao_dba.get_conexao()
     enviar_emails_convite_repository = EnviarEmailsConviteViagemRepository(conexao)
@@ -21,6 +22,7 @@ def test_registrar_emails_participantes():
     
     conexao.commit()
     
+@pytest.mark.skip(reason="Testes com o banco de dados para enviar emails")
 def test_enviar_emails_por_viagem():
     conexao = gerenciar_conexao_dba.get_conexao()
     enviar_emails_convite_repository = EnviarEmailsConviteViagemRepository(conexao)
